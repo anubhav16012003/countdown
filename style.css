@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/1683747988_background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+#timer p{
+    margin-right: 30px;
+}
